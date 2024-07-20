@@ -1,0 +1,177 @@
+{
+  "courts": [
+    {
+      "id": "1",
+      "name": "Sân cầu lông 115 Quán Thánh",
+      "location": "115 Quán Thánh, Quận Ba Đình, Hà Nội",
+      "courts": "2",
+      "price": "100.000đ/h",
+      "image": "https://babolat.com.vn/wp-content/uploads/2023/11/san-cau-long-quang-trung.jpg",
+      "availableTimes": [
+        "18:00 – 22:00"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Sân BD Nguyễn Đắc Hợp",
+      "location": " Bình Yên, huyện Thạc Thất, Hà Nội",
+      "courts": "4",
+      "price": "200.000đ/h",
+      "image": "https://sieuthicaulong.vn/images/badminton-yard/1689221427-S%C3%82NC%E1%BA%A6UL%C3%94NGSGBV%C6%AF%E1%BB%9CNL%C3%80I(3).jpg",
+      "availableTimes": [
+        "18:00 – 22:00"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Sân BOP Phạm Hồng Thái",
+      "location": "01 Nguyễn Văn Ngọc, phường Cống Vị, quận Ba Đình, Hà Nội",
+      "courts": "4",
+      "price": "100.000đ/h",
+      "image": "https://babolat.com.vn/wp-content/uploads/2023/11/san-bod-pham-hong-thai.jpg",
+      "availableTimes": [
+        "18:00 – 22:00"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Sân cầu lông 354",
+      "location": "120 Đốc Ngữ, Ba Đình, Hà Nội",
+      "courts": "5",
+      "price": "120.000đ/h",
+      "image": "https://babolat.com.vn/wp-content/uploads/2023/11/san-cau-long-ha-noi-354.jpg",
+      "availableTimes": [
+        "05:00 – 22:00"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Sân 521 Minh Khai",
+      "location": "521 P. Minh Khai, Vĩnh Phú, Hai Bà Trưng",
+      "courts": "5",
+      "price": "60.000đ/h",
+      "image": "https://babolat.com.vn/wp-content/uploads/2023/11/san-cong-vien-thong-nhat.jpg",
+      "availableTimes": [
+        "06:00 – 23:00"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Sân CLB cầu lông Hồng Hà",
+      "location": "988 Bạch Đằng, Hai Bà Trưng, Hà Nội",
+      "courts": "4",
+      "price": "90.000đ/h",
+      "image": "https://babolat.com.vn/wp-content/uploads/2023/11/san-cau-long-266-pho-vu-huu.jpg",
+      "availableTimes": [
+        "17:00 – 22:00"
+      ]
+    },
+    {
+      "name": "Badminton",
+      "location": "Sơn Tây",
+      "courts": "1",
+      "price": "100000",
+      "image": "https://shopvnb.com/uploads/tin_tuc/review-san-cau-long-quan-12-san-cau-long-nhat-pham.webp",
+      "availableTimes": [
+        "8:00 - 12:00"
+      ],
+      "id": "7"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Nguyễn Văn A",
+      "email": "manager@gmail.com",
+      "password": "123456",
+      "role": "manager"
+    },
+    {
+      "id": "2",
+      "name": "Nguyễn Văn B",
+      "email": "guest@gmail.com",
+      "password": "123456",
+      "role": "guest"
+    },
+    {
+      "id": "4",
+      "name": "uydev",
+      "email": "hehe@gmail.com",
+      "password": "123456",
+      "role": "guest"
+    },
+    {
+      "id": "5",
+      "name": "213",
+      "email": "uydev23@gmail.com",
+      "password": "123456",
+      "role": "guest"
+    },
+    {
+      "name": "Huy",
+      "email": "doquanghuy24122003@gmail.com",
+      "password": "123456",
+      "id": "6",
+      "role": "guest"
+    },
+    {
+      "name": "Huy",
+      "email": "huydqhe170775@gmail.com",
+      "password": "123",
+      "id": "7",
+      "role": "guest"
+    },
+    {
+      "name": "huy",
+      "email": "huy@gmail.com",
+      "password": "123",
+      "id": "8",
+      "role": "guest"
+    }
+  ],
+  "orders": [
+    {
+      "id": "5",
+      "courtId": "3",
+      "date": "2024-12-24",
+      "time": [
+        "9:00 - 10:00",
+        "14:00 - 15:00"
+      ],
+      "userId": "5",
+      "status": "Approved"
+    },
+    {
+      "id": "6",
+      "courtId": "3",
+      "date": "2024-12-24",
+      "time": [
+        "9:00 - 10:00",
+        "11:00 - 12:00"
+      ],
+      "userId": "6",
+      "status": "Rejected"
+    },
+    {
+      "id": "3",
+      "courtId": "2",
+      "date": "2025-01-02",
+      "time": [
+        "15:00 - 16:00"
+      ],
+      "userId": "8",
+      "status": "Rejected"
+    },
+    {
+      "id": "4",
+      "courtId": "3",
+      "date": "2024-08-02",
+      "time": [
+        "14:00 - 15:00",
+        "16:00 - 17:00"
+      ],
+      "userId": "3",
+      "status": "Rejected"
+    }
+  ]
+}
